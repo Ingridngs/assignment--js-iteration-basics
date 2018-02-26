@@ -10,9 +10,18 @@
 
 
 
+function shortiesOnly(allNames){
+    const shorts=[]
+        for(let i =0 ; i > allNames.length ; i ++){
+        if (allNames[i].length < = 4) {
+           console.log(allNames[i])
+           shorts.push(allNames[i])
+        } 
+     return shorts
+     }
 
 
-
+  
 
 
 

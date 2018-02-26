@@ -7,7 +7,12 @@
  * is found in the array.
  *
 **/
-
+function countWordInArray(word,sentence){
+	for( let i = 0 ; i < sentence.length ; i ++){
+		if(word===sentence[i])
+	}
+return (sentence.length)
+}
 
 
 

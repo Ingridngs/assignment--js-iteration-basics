@@ -7,6 +7,24 @@
  *
 */
 
+function removeVowels(string){
+	let word= "";
+	for(i = 0; i < string.length; i++){
+		if (string[i] != "a" &&
+	    if (string[i] != "e" &&
+        if (string[i] != "i" &&
+        if (string[i] != "o" &&
+        if (string[i] != "u" &&
+        if (string[i] != "A" &&
+        if (string[i] != "E" &&
+        if (string[i] != "I" &&
+        if (string[i] != "O" &&
+        if (string[i] != "U" ) {
+        	word += string[i];
+        }
+	}
+  return word;
+}
 
 
 

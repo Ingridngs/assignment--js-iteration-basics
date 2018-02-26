@@ -8,6 +8,15 @@
  *
 */
 
+function simpOrSamp(simpList){
+    
+     for(let i =0 ; i < simpList.length ; i ++){
+     	if (simpList[i].length < 6) {
+     		simpList[i] += " Sampson"
+
+     	} else simpList[i] += " Simpson"
+     } console.log (simpList)
+return simpList }  
 
 
 

@@ -9,7 +9,13 @@
 */
 
 
-
+function getFirstLetters(array){
+	let array = [];
+	for (i=0; i < array.lenght; i ++){
+		arr[i]= array[i][0]
+	}
+    return arr;
+}
 
 
 

@@ -9,6 +9,16 @@
 
 
 
+function wordMatchInArray(name,list){
+	for(let i = 0; i < list.lenght; i ++)
+		if(name=== list [i]){
+			return true;
+		}
+}
+
+return false;
+
+}
 
 
 
